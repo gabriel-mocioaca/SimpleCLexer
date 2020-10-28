@@ -47,6 +47,11 @@ void count();
 "void"			{ count(); return(VOID); }
 "volatile"		{ count(); return(VOLATILE); }
 "while"			{ count(); return(WHILE); }
+"__Bool"		{ coutn(); return(__BOOL}; }
+"__Complex"		{ count(); return(__COMPLEX); }
+"__Imaginary"	{ count(); return(__IMAGINARY); }
+
+
 
 {L}({L}|{D})*		{ count(); return(check_type()); }
 
