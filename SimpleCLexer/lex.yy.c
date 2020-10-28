@@ -1065,7 +1065,7 @@ YY_RULE_SETUP
 case 34:
 YY_RULE_SETUP
 #line 50 "c.lex"
-{ coutn(); return(__BOOL}; }
+{ count(); return(__BOOL); }
 	YY_BREAK
 case 35:
 YY_RULE_SETUP

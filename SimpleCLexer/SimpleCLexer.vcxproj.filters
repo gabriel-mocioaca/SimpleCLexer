@@ -31,5 +31,8 @@
     <None Include="c.lex">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="input.csrc">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

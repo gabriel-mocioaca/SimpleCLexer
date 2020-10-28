@@ -37,7 +37,7 @@ const char* lexUnits[] = {  "END",
 							"GOTO",
 							"REGISTER",
 							"SIGNED",
-							"SIZEOF",				,
+							"SIZEOF",				
 							"STATIC",
 							"STRUCT",
 							"SWITCH",
@@ -82,7 +82,7 @@ const char* lexUnits[] = {  "END",
 						    "__BOOL",
 							"__COMPLEX",
 							"__IMAGINARY"
-							};
+				};
 
 	int main()				   			
 {						   			
