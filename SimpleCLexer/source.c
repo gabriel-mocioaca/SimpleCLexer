@@ -82,7 +82,7 @@ const char* lexUnits[] = {  "END",
 						    "__BOOL",
 							"__COMPLEX",
 							"__IMAGINARY"
-				};
+	};
 
 	int main()				   			
 {						   			
@@ -92,7 +92,7 @@ const char* lexUnits[] = {  "END",
 	{
 		while ((tokenValue = yylex()) != 0)
 		{
-			printf(" -> TOKEN ID: %d; Token Value: %s \n", tokenValue, lexUnits[tokenValue - 1]);
+			printf(" -> TOKEN ID: %d; Token Value: %s \n", tokenValue, lexUnits[tokenValue]);
 		}
 	}
 	else

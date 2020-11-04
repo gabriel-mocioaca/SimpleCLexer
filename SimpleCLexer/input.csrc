@@ -1,1 +1,1 @@
-bool test(int x){};
+auto test(int x){};

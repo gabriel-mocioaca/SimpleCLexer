@@ -21,6 +21,9 @@
     <ClCompile Include="lex.yy.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="parser.tab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="symbols.h">
@@ -32,6 +35,9 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="input.csrc">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parser.y">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="lex.yy.c" />
+    <ClCompile Include="parser.tab.c" />
     <ClCompile Include="source.c" />
   </ItemGroup>
   <ItemGroup>
@@ -147,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="c.lex" />
+    <None Include="parser.y" />
     <None Include="input.csrc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
